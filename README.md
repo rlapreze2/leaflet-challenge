@@ -9,9 +9,9 @@ The USGS is responsible for providing scientific data about natural hazards, eco
 ## Repository Structure
 
 - **index.html**: The main HTML document.
-- **Leaflet-Part-1/static
+- **static
     - **css/style.css**: Contains styles for the visualization.
-    - **js/logic-lee.js**: Contains JavaScript code for fetching data and building visualizations.
+    - **js/logic.js**: Contains JavaScript code for fetching data and building visualizations.
 - **images**: Contains screenshots of images for the README.
 
 ## Instructions
@@ -28,7 +28,7 @@ The first task was to visualize an earthquake dataset. The following steps were 
     * The USGS provides earthquake data in various formats, updated every 5 minutes. The [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page was visited and a dataset was chosen to visualize. The "All Earthquakes from the Past 7 Days" dataset was used.
     * Example screenshot of the dataset selection page:
       ![GeoJSON Summary Format](images/GeoJSON_Summary_Format.png)<br>
-    * Upon clicking a dataset (such as "All Earthquakes from the Past 7 Days"), a JSON representation of that data was provided. The URL of this JSON was used to pull in the data for the visualization by expliciting adding the URL to the `logic-lapreze.js` file.
+    * Upon clicking a dataset (such as "All Earthquakes from the Past 7 Days"), a JSON representation of that data was provided. The URL of this JSON was used to pull in the data for the visualization by expliciting adding the URL to the `logic.js` file.
     * Example screenshot of earthquake data in JSON format:
       ![All Earthquakes for the Past 7 Days](images/Past_7_Days_JSON.png)<br>
 
